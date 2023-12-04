@@ -1,3 +1,18 @@
 * {
   background-color: aqua;
 }
+
+.card-container {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  row-gap: 20px;
+  column-gap: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+img {
+  max-height: 300px;
+}
